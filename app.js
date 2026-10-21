@@ -195,7 +195,7 @@ function renderCards() {
         <div class="xcard__face">
           <div class="xcard__head">
             <p class="xcard__title">${c.title}</p>
-            <img class="xcard__logo" src="logga.png" width="35" height="40" alt="" decoding="async">
+            <img class="xcard__logo" src="stockholms-nation-logga.png" width="35" height="40" alt="" decoding="async">
             <p class="xcard__sub">nationsguiden.se</p>
           </div>
           <p class="xcard__meta">ID-num:  07425051<br>Stockholms nation</p>
