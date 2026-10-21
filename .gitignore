@@ -1,0 +1,7 @@
+# Skärminspelningar och video, hör inte till sidan
+*.MOV
+*.mov
+*.mp4
+
+# Test-/temp-artefakter
+.playwright-mcp/

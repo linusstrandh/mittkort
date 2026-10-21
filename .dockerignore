@@ -1,0 +1,7 @@
+.playwright-mcp
+*.MOV
+*.mov
+startbild2.webp
+Dockerfile
+Caddyfile
+.dockerignore

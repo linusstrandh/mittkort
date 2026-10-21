@@ -1,0 +1,15 @@
+{
+	admin off
+	auto_https off
+}
+
+# Railway sätter PORT; 8080 är reserv vid lokal körning
+:{$PORT:8080} {
+	root * /srv
+	encode gzip
+	file_server
+
+	# Offline-filen ska alltid kollas mot servern, annars fastnar telefonen på en gammal version
+	@sw path /sw.js
+	header @sw Cache-Control "no-cache"
+}
