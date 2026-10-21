@@ -1,6 +1,6 @@
 // Gör att appen startar även utan nät. Hämtar alltid färskt när det går
 // (så ändringar syns direkt) och faller tillbaka på sparad kopia offline.
-const CACHE = "rabatter-v3";
+const CACHE = "rabatter-v4";
 const SHELL = [
   "./",
   "index.html",
