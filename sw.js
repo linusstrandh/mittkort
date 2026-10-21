@@ -1,6 +1,6 @@
 // Gör att appen startar även utan nät. Hämtar alltid färskt när det går
 // (så ändringar syns direkt) och faller tillbaka på sparad kopia offline.
-const CACHE = "rabatter-v2";
+const CACHE = "rabatter-v3";
 const SHELL = [
   "./",
   "index.html",
@@ -9,7 +9,7 @@ const SHELL = [
   "manifest.webmanifest",
   "hero-guld.webp",
   "startbild2-cirkel.webp",
-  "stockholms-nation-logga.png",
+  "logga.png",
   "qrcode.min.js",
   "icons/icon-192.png",
   "icons/apple-touch-icon.png",
