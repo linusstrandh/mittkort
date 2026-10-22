@@ -326,7 +326,7 @@ window.addEventListener("resize", () => {
 const holder = readHolder();
 
 function readHolder() {
-  const fallback = { name: "Linus Strand", pnr: "123123" };
+  const fallback = { name: "För- Efternamn", pnr: "ÅÅÅÅMMDD-XXXX" };
   try {
     return { ...fallback, ...JSON.parse(localStorage.getItem("holder") || "{}") };
   } catch {
